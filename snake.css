@@ -1,0 +1,41 @@
+body {
+    background-color: #1f2e2e;
+}
+
+header {
+    height: 117px;
+    margin-top: 20px;
+    margin-right: 10px;
+    background-image: url(snake-game-clone.png);
+    background-repeat: no-repeat;
+    background-position: center bottom;
+    position: relative;
+}
+
+#scena {
+    background-color: #96C300;
+    height: 500px;
+    position: relative;
+    width: 500px;
+    margin-top: 20px;
+    margin-left: 500px;
+    border: solid 5px #fff;
+
+}
+
+.pixel-scena {
+    height: 10px;
+    position: absolute;
+    width: 10px;
+}
+
+.segment-snake {
+
+    background-image: url(snake2.png);
+}
+
+.munchie {
+    background-image: url(munchie.png);
+    background-repeat: no-repeat;
+
+}
