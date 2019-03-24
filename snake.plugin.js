@@ -16,7 +16,7 @@ $.fn.snake = function() {
     initializareTaste();
     afiseazaMunchie();
     
-    setInterval(miscaSanke, 250);
+    setInterval(miscaSanke, 150);
 }
 
 function initializareScena(elementScena) {
